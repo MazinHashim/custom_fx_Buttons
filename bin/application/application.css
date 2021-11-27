@@ -1,0 +1,33 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.ancor{
+    -fx-background-image:url("images.jpg");
+    -fx-background-size: cover;  
+}
+#logsig Button{
+    -fx-background-color: transparent;
+    -fx-text-fill: rgba(255,255,255,0.7);
+    -fx-border-width: 0px 0px 2px 0px;
+    -fx-border-color: white;
+    -fx-font-size: 1.3em;
+    -fx-font-weight: bold;
+}
+#logsig Button:hover{
+	-fx-text-fill: white;
+}
+#userpass TextField,PasswordField{
+    -fx-background-color: transparent;
+    -fx-border-width: 0px 0px 2px 0px;
+    -fx-border-color: white; 
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: white;
+}
+#userpass Button{
+    -fx-background-color: rgba(20,20,20,0.8);
+    -fx-background-radius: 100;
+}
+#userpass Button:hover{
+	-fx-scale-x: 1.05;
+	-fx-scale-y: 1.05;
+	-fx-text-fill: rgba(0,0,244,0.5);
+	-fx-padding: 1px;
+}
